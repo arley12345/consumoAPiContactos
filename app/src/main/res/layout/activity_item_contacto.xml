@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".models.ItemContacto"
+    android:padding="20dp"
+    android:background="#f6f5f6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+
+        >
+
+        <TextView
+            android:id="@+id/itemNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lennie Graham"
+            android:textSize="22sp"
+
+            android:layout_marginTop="10dp"
+            android:textColor="#2c6333"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/itemTelefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_phone"
+            android:hint="-0349595483455393453452"
+            android:layout_marginTop="10dp"
+            android:textColor="#808080"/>
+
+
+        <TextView
+            android:id="@+id/itemEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="Sanna@gmail.com"
+            android:layout_marginTop="10dp"
+            android:textColor="#808080"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
